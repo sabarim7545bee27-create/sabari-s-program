@@ -1,0 +1,8 @@
+str1=(input("Enter the string1:"))
+str2=(input("Enter the string2:"))
+print("The string1 is:",str1)
+print("The string2 is:",str2)
+if(str1 == str2):
+   print("string is equal")
+else:
+   print("string is not equal")
