@@ -1,0 +1,14 @@
+import math
+t=int(input("enter the number"))
+if(t==1):
+   a=(input("enter the value of a"))
+   b=(input("enter the value of b"))
+   c=(input("enter the value of c"))
+   s=(a+b+c)/2
+   area = math.sqrt(s*(s-a)*(s-b)*(s-c))
+   print area
+if(t==2):
+   b=int(input("enter the value of b"))
+   h=int(input("enter the value of p"))
+   area=(b*h)/2
+   print area
